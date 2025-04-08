@@ -9,15 +9,8 @@
       "browsingData",
       "history"
     ],
-    "content_security_policy": {
-    "extension_pages": {
-        "script-src": "'self' https://cdn.jsdelivr.net",
-        "style-src": "'self' https://cdn.jsdelivr.net"
-        }
-    },
     "host_permissions": [
-        "http://*/*",
-        "https://*/*"
+      "<all_urls>"
     ],
     "action": {
       "default_popup": "popup.html",
@@ -25,6 +18,12 @@
     },
     "background": {
       "service_worker": "background.js"
+    },
+    "icons": {
+        "16": "src/16.png",
+        "32": "src/32.png",
+        "192": "src/192.png",
+        "512": "src/512.png"
     }
   }
   
