@@ -29,27 +29,27 @@ Automatically clears cookies, cache, and history for specified websites after cl
    1. Visit <b>chrome://extensions/</b>
    2. Enable Developer mode (toggle top-right)
    3. Click Load unpacked
-   4. Select the cool-cleaner folder
+   4. Select the cool-cleaner folder <br>
 
 </details><details> <summary><strong>Mozilla Firefox</strong></summary><br>
    
    1. Visit <b>about:debugging</b>
    2. Click This Firefox (left sidebar)
    3. Click Load Temporary Add-on
-   4. Select manifest.json from the folder
+   4. Select manifest.json from the folder <br>
 
 </details><details> <summary><strong>Microsoft Edge</strong></summary><br>
 
    1. Visit <b>edge://extensions/</b>
    2. Enable Developer mode (bottom-left)
    3. Click Load unpacked
-   4. Select the cool-cleaner folder
+   4. Select the cool-cleaner folder <br>
 
 </details><details> <summary><strong>Opera</strong></summary><br>
    1. Visit <b>opera://extensions/</b>
    2. Enable Developer mode (top-right)
    3. Click Load unpacked
-   4. Select the cool-cleaner folder
+   4. Select the cool-cleaner folder <br>
 </details>
 
 ### Step 3: Configuration ⚙️
