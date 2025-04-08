@@ -1,0 +1,23 @@
+# Ignore node_modules directory (if you're using Node.js)
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.swp
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore OS-specific files
+.DS_Store  # For macOS
+Thumbs.db   # For Windows
+
+# Ignore build artifacts (if any)
+dist/
+build/
+
+# Ignore any other specific files you don't want in the Git repo
+*.env
