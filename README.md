@@ -26,9 +26,10 @@ Automatically clears cookies, cache, and history for specified websites after cl
 ### Step 2: Load in Your Browser
 <details><summary><strong>Google Chrome</strong></summary>
 
-1. Enable Developer mode (toggle top-right)
-2. Click Load unpacked
-3. Select the cool-cleaner folder
+1. Visit <b>chrome://extensions/</b>
+2. Enable Developer mode (toggle top-right)
+3. Click Load unpacked
+4. Select the cool-cleaner folder
 
 </details><details> <summary><strong>Mozilla Firefox</strong></summary>
 Visit about:debugging
