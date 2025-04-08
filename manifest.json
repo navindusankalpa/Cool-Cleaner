@@ -1,0 +1,30 @@
+{
+    "manifest_version": 3,
+    "name": "Cool Cleaner",
+    "version": "1.0",
+    "description": "Auto-clears cookies, cache, and history of specific sites after closing all tabs.",
+    "permissions": [
+      "tabs",
+      "storage",
+      "browsingData",
+      "history"
+    ],
+    "content_security_policy": {
+    "extension_pages": {
+        "script-src": "'self' https://cdn.jsdelivr.net",
+        "style-src": "'self' https://cdn.jsdelivr.net"
+        }
+    },
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_title": "Cool Cleaner"
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  

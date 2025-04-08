@@ -1,0 +1,44 @@
+body {
+font-family: 'Segoe UI', sans-serif;
+}
+
+html, body {
+width: 100%;
+max-width: 500px;
+min-width: 350px;
+margin: 0 auto;
+}
+
+#siteList li {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 15px;
+margin-bottom: 6px;
+border-radius: 6px;
+}
+
+#error-message {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  #error-message .btn-close {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+  }
+
+#siteList li span {
+color: #dc3545;
+font-weight: bold;
+cursor: pointer;
+transition: transform 0.2s;
+}
+
+#siteList li span:hover {
+transform: scale(1.2);
+}
+
+
+/* popup.css */
