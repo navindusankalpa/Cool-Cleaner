@@ -21,18 +21,14 @@ Automatically clears cookies, cache, and history for specified websites after cl
    cd cool-cleaner
 ```
 ```bash
-   git clone https://github.com/your-username/cool-cleaner.git
+   git clone https://github.com/navindusankalpa/cool-cleaner.git
 ```
 ### Step 2: Load in Your Browser
 <details><summary><strong>Google Chrome</strong></summary>
-   
-Visit chrome://extensions/
 
-Enable Developer mode (toggle top-right)
-
-Click Load unpacked
-
-Select the cool-cleaner folder
+1. Enable Developer mode (toggle top-right)
+2. Click Load unpacked
+3. Select the cool-cleaner folder
 
 </details><details> <summary><strong>Mozilla Firefox</strong></summary>
 Visit about:debugging
@@ -53,7 +49,9 @@ Click Load unpacked
 Select the cool-cleaner folder
 
 </details><details> <summary><strong>Opera</strong></summary>
-Visit opera://extensions/
+Visit 
+```bash
+   opera://extensions/
 
 Enable Developer mode (top-right)
 
@@ -94,7 +92,7 @@ Want to contribute? Here's how:
 1. **Fork** the repository
 2. **Clone** your fork locally:
    ```bash
-   git clone https://github.com/your-username/cool-cleaner.git
+   git clone https://github.com/navindusankalpa/cool-cleaner.git
    ```
 3. **Make** your changes
 4. **Test** by loading the extension in your browser
