@@ -24,42 +24,32 @@ Automatically clears cookies, cache, and history for specified websites after cl
    git clone https://github.com/navindusankalpa/cool-cleaner.git
 ```
 ### Step 2: Load in Your Browser
-<details><summary><strong>Google Chrome</strong></summary>
+<details><summary><strong>Google Chrome</strong></summary><br>
 
-1. Visit <b>chrome://extensions/</b>
-2. Enable Developer mode (toggle top-right)
-3. Click Load unpacked
-4. Select the cool-cleaner folder
+   1. Visit <b>chrome://extensions/</b>
+   2. Enable Developer mode (toggle top-right)
+   3. Click Load unpacked
+   4. Select the cool-cleaner folder
 
-</details><details> <summary><strong>Mozilla Firefox</strong></summary>
-Visit about:debugging
+</details><details> <summary><strong>Mozilla Firefox</strong></summary><br>
+   
+   1. Visit <b>about:debugging</b>
+   2. Click This Firefox (left sidebar)
+   3. Click Load Temporary Add-on
+   4. Select manifest.json from the folder
 
-Click This Firefox (left sidebar)
+</details><details> <summary><strong>Microsoft Edge</strong></summary><br>
 
-Click Load Temporary Add-on
+   1. Visit <b>edge://extensions/</b>
+   2. Enable Developer mode (bottom-left)
+   3. Click Load unpacked
+   4. Select the cool-cleaner folder
 
-Select manifest.json from the folder
-
-</details><details> <summary><strong>Microsoft Edge</strong></summary>
-Visit edge://extensions/
-
-Enable Developer mode (bottom-left)
-
-Click Load unpacked
-
-Select the cool-cleaner folder
-
-</details><details> <summary><strong>Opera</strong></summary>
-Visit 
-```bash
-   opera://extensions/
-
-Enable Developer mode (top-right)
-
-Click Load unpacked
-
-Select the cool-cleaner folder
-
+</details><details> <summary><strong>Opera</strong></summary><br>
+   1. Visit <b>opera://extensions/</b>
+   2. Enable Developer mode (top-right)
+   3. Click Load unpacked
+   4. Select the cool-cleaner folder
 </details>
 
 ### Step 3: Configuration ⚙️
